@@ -1,6 +1,7 @@
 list = input('Enter a list of numbers separated by a space').split(' ')
 num_list = [int(i) for i in list]
 
+
 def max(list):
 
     max = float('-inf')
@@ -9,6 +10,7 @@ def max(list):
             max = num
 
     return max
+
 
 def min(list):
 
@@ -23,4 +25,4 @@ def min(list):
 print(f" Maximum: {max(num_list)} \n Minimum: {min(num_list)}")
 
 
-
+# simply a test to see if i can clone, modify and push changes
