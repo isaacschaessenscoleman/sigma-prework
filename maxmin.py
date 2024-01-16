@@ -23,6 +23,3 @@ def min(list):
 
 
 print(f" Maximum: {max(num_list)} \n Minimum: {min(num_list)}")
-
-
-# simply a test to see if i can clone, modify and push changes
